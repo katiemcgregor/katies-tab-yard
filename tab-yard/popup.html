@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>KATIE'S TAB YARD</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="window-header">KATIE'S TAB YARD</div>
+
+  <div class="content">
+    <!-- Load tabs block -->
+    <div class="panel">
+      <button id="captureBtn">Capture Tabs</button>
+      <button id="importBtn">Import Tabs</button>
+      <input id="importInput" type="file" accept="application/json" multiple hidden>
+    </div>
+
+    <!-- Random block -->
+    <div class="panel">
+      <button id="randomBtn">Generate Random Tab</button>
+    </div>
+
+    <!-- Card / status -->
+    <div id="result" class="tab-display">Ready to tend the yard 🌿</div>
+
+    <div class="mini">
+      Saved set: <span id="countTotal">0</span> • Imported: <span id="countImported">0</span> • Desktop-captured: <span id="countCaptured">0</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
