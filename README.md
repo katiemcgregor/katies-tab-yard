@@ -1,7 +1,6 @@
 # KATIE'S TAB YARD
 
 A tiny Chrome extension to revisit forgotten tabs.  
-**No side panel.** Retro 90s vibe.
 
 ## Install (developer mode)
 1. Clone or download this repo.
